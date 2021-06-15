@@ -1,5 +1,10 @@
 const farmAnimals = 'cow horse sheep pig chicken';
 
+
+const animalsArray=farmAnimals.split(" ");
+console.log(animalsArray)
+const [moo, neigh, baa, oink, cluck]= animalsArray
+const[bessie,thundercock ,bahbah ,wilbur]= animalsArray;
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 const muppet = {
